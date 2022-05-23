@@ -1,6 +1,6 @@
 /* Import themes: */
 
-#include "/usr/share/dwm-themes/tokyo-night-orange.h"
+#include "/usr/share/dwm-themes/nordic-aurora.h"
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -109,6 +109,7 @@ static const char *brave[] = {"brave", NULL }; /* Brave launcher */
 static const char *whatsapp[] = { "whatsapp-nativefier", NULL }; /* Whatsapp laucher */
 static const char *telegram[] = { "telegram-desktop", NULL }; /* Telegram launcher*/
 static const char *spotify[] = { "spotify", NULL }; /* Spotify launcher */
+static const char *deadbeef[] = { "deadbeef", NULL }; /* Music player */
 static const char *pcmanfm[] = { "pcmanfm", NULL }; /* File manager */
 static const char *code[] = { "code", NULL }; /* Code Editor */
 static const char *pavucontrol[] = {"pavucontrol", NULL }; /* Pulse Audio control*/
@@ -134,7 +135,7 @@ static Key keys[] = {
 	/*Whatsapp */
 	{ MODKEY,                        XK_w,            spawn,          {.v = whatsapp } },
 	/* Telegram launcher */
-	{ SUPERKEY,                      XK_s,            spawn,          {.v = telegram } },
+	{ SUPERKEY,                      XK_t,            spawn,          {.v = telegram } },
 	/*Dmenu hotkey */
 	{ MODKEY,                        XK_p,            spawn,          {.v = dmenucmd } },
 	/*Rofi hotkey */
@@ -144,7 +145,9 @@ static Key keys[] = {
 	/*Termite terminal hotkey */
 	{ MODKEY|ControlMask,            XK_Return,       spawn,          {.v = termite } },
 	/*Spotify hotkeys */
-	{ MODKEY|ControlMask,            XK_s,            spawn,          {.v = spotify } },
+	{ SUPERKEY,                      XK_s,            spawn,          {.v = spotify } },
+	/*Deadbeef music player */
+	{ SUPERKEY,                      XK_m,            spawn,          {.v = deadbeef } },
 	/* File manager */
 	{ SUPERKEY,                      XK_d,            spawn,          {.v = pcmanfm } },
 	/* Code Editor */
