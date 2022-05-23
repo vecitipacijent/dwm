@@ -1,0 +1,2 @@
+feh --bg-scale ~/.config/wallpapers/dracula-ant.png
+picom --config ~/.config/picom/picom.conf -b &

@@ -1,0 +1,6 @@
+xrandr -q | grep -iw 'screen\|connected'
+echo 'print( (((1366 ** 2)+(768 ** 2) ) ** (0.5) ) / 20 )' | python3
+echo Xft.dpi: 78 >> ~/.Xresources
+cat ~/.Xresources
+xrdb -merge ~/.Xresources
+Restart or log out and log back in.

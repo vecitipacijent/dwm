@@ -1,0 +1,25 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+
+" Dracula theme
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+" Syntastic
+Plug 'scrooloose/syntastic'
+
+" Light Line
+"Plug 'itchyny/lightline.vim'
+
+" Airline Powerline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Last Place
+Plug 'farmergreg/vim-lastplace'
+
+" Completion code
+Plug 'valloric/youcompleteme'
+
+call plug#end()
