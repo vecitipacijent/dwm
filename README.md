@@ -69,11 +69,11 @@ First, change directory to Downloads with a command:
 
 Clone the Github directory with a command:
 
-`git clone https://github.com/vecitipacijent/Asus-dwm.git`
+`git clone https://github.com/vecitipacijent/dwm.git`
 
 Change directory again with a command:
 
-`cd Asus-dwm/`
+`cd dwm/`
 
 Make an executable script with a command:
 
