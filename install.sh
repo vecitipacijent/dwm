@@ -22,7 +22,7 @@ sh yay-aur-install.sh
 sh fonts-install.sh
 # Copyng DWM themes to /usr/share/ directory
 cd ~/dwm-laptop/
-cp -r dwm-themes /usr/share/
+sudo cp -r dwm-themes /usr/share/
 # Suckless install
 cd ~/dwm-laptop/scripts/
 sh suckless-install.sh
