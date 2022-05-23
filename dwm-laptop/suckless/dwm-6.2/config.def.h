@@ -1,6 +1,6 @@
 /* Import themes: */
 
-#include "/home/stefan/.config/suckless/dwm-6.2/themes/tokyo-night-green.h"
+#include "/usr/share/dwm-themes/tokyo-night-orange.h"
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
@@ -121,7 +121,7 @@ static Key keys[] = {
 	/* modifier                      key              function        argument */
 	/*My own made hotkeys:*/
 	/*Alacritty terminal*/
-	{ SUPERKEY,			             XK_Return,       spawn,          {.v = alacritty } },
+	{ SUPERKEY,			 XK_Return,       spawn,          {.v = alacritty } },
 	/*Power Menu*/
 	{ SUPERKEY,                      XK_p,            spawn,          {.v = powermenu } },
 	/*Browser hotkey:*/
