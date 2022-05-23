@@ -1,12 +1,8 @@
 # Suckless script for suckless installation and configuration of DWM and Suckless utils
 
-<center><img src="https://github.com/vecitipacijent/Asus-dwm/blob/main/dwm%202.1.png" alt="what image shows" height="450" width="800"></center>
-
 This simple post Arch base installation script was made primarily for myself, because usually I'm too lazy to do this stuff manually all over again once I hope a DE and I hope a lot, but I always end up getting back to DWM. It's simply the best. Script was also created for those who wanna start using window manager and wanna try DWM for the first time, but don't know how or what they need to tweak, configure or install. The script installs and configures almost everything that you need to do after base installation of Arch Linux with Yay AUR helper installed.
                      
 # Installation
-
-<center><img src="https://raw.githubusercontent.com/vecitipacijent/Asus-dwm/main/dwm%201.1.png" alt="what image shows" height="450" width="800"></center>
 
 ## The script installs:
 * `LXAppearance` Light-weight theme switcher from LXDE
