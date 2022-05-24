@@ -80,6 +80,7 @@ PKGS=(
 	'polkit-gnome'
 	'nodejs-material-design-icons'
 	'gnome-keyring'
+	'ranger'
 )
 
 for PKG in "${PKGS[@]}"; do
