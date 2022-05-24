@@ -42,7 +42,7 @@ PKGS=(
 	'ttf-consolas-ligaturized'
 	'ttf-material-design-icons'
 	'alacritty-themes'
-	'github-desktop-bin'
+	'nordic-theme-git'
 )
 
 for PKG in "${PKGS[@]}"; do
