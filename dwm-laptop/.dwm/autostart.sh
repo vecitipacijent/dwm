@@ -7,8 +7,8 @@ feh --bg-scale ~/.config/wallpapers/mountain1.jpg
 #picom --vsync -f &
 picom --config ~/.config/picom/picom.conf -b &
 #picom --experimental-backends --config ~/.config/picom/picom.conf
-mate-power-manager &
-nm-applet &
+#mate-power-manager &
+#nm-applet 
 exec slstatus &
 xrdb -merge $HOME/.Xresources
 
