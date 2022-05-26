@@ -71,6 +71,9 @@ sh missing.sh
 # Picom configuration
 cd ~/dwm-laptop/scripts/
 sh picom-config.sh
+# Ranger
+cd ~/dwm-laptop/scripts/
+sh ranger.sh
 # Firefox txt
 cd ~/dwm-laptop/scripts/
 sh firefox-chrome-install.sh
