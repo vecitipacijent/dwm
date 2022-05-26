@@ -43,6 +43,8 @@ PKGS=(
 	'ttf-material-design-icons'
 	'alacritty-themes'
 	'nordic-theme-git'
+	'moc-pulse'
+	'mocicon'
 )
 
 for PKG in "${PKGS[@]}"; do

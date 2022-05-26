@@ -74,6 +74,8 @@ sh picom-config.sh
 # Ranger
 cd ~/dwm-laptop/scripts/
 sh ranger.sh
+# MOC - Music On Console
+sh moc-configuration.sh
 # Firefox txt
 cd ~/dwm-laptop/scripts/
 sh firefox-chrome-install.sh
