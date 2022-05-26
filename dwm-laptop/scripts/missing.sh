@@ -11,7 +11,7 @@
 # Installing missed apps:
 echo "INSTALLING APPS THAT WERE MISSED BY THE BASE INSTALLATION"
 sleep 3s
-yay -S networkmanager network-manager-applet git vim dialog wpa_supplicant mtools dosfstools base-devel linux-headers pacman-contrib avahi xdg-user-dirs gvfs gvfs-smb nfs-utils inetutils dnsutils bluez bluez-utils alsa-utils pulseaudio linux-firmware mesa mesa-utils alsa-plugins pulseaudio-alsa exfat-utils fuse-common fuse2 fuse3 confuse fuseiso sshfs bash-completion openssh rsync reflector acpi acpi_call tlp virt-manager qemu qemu-arch-extra edk2-ovmf bridge-utils dnsmasq vde2 openbsd-netcat ipset firewalld sof-firmware nss-mdns acpid os-prober ntfs-3g terminus-font --noconfirm
+yay -S networkmanager network-manager-applet git vim dialog wpa_supplicant mtools dosfstools base-devel linux-headers pacman-contrib avahi xdg-user-dirs gvfs gvfs-smb nfs-utils inetutils dnsutils bluez bluez-utils alsa-utils pulseaudio linux-firmware mesa mesa-utils alsa-plugins pulseaudio-alsa exfat-utils fuse-common fuse2 fuse3 confuse fuseiso sshfs bash-completion openssh rsync reflector acpi acpi_call tlp dnsmasq openbsd-netcat ipset firewalld sof-firmware nss-mdns acpid os-prober ntfs-3g terminus-font --noconfirm
 
 # Installing proper drivers
 echo "Installing GPU drivers!"
@@ -32,20 +32,14 @@ echo "SystemD services enabling..."
 sleep 3s
 
 sudo systemctl enable NetworkManager
-sudo systemctl enable bluetooth
 sudo systemctl enable sshd
 sudo systemctl enable avahi-daemon
 sudo systemctl enable tlp # You can disable this if you're not on a laptop, because this is battery tool
 sudo systemctl enable reflector.timer
 sudo systemctl enable fstrim.timer
-sudo systemctl enable libvirtd
 sudo systemctl enable firewalld
 sudo systemctl enable acpid
 
 echo "SystemD services enabled"
 sleep 3s
-echo "Add a user for Virtual manager"
-sleep 2s
-sudo usermod -aG libvirt stefan
-sleep 2s
 exit
