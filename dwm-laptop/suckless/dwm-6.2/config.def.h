@@ -110,6 +110,7 @@ static const char *whatsapp[] = { "whatsapp-nativefier", NULL }; /* Whatsapp lau
 static const char *telegram[] = { "telegram-desktop", NULL }; /* Telegram launcher*/
 static const char *spotify[] = { "spotify", NULL }; /* Spotify launcher */
 static const char *deadbeef[] = { "deadbeef", NULL }; /* Music player */
+static const char *mocp[] = { "alacritty", "-e", "mocp", NULL }; /*Music On Console */
 static const char *pcmanfm[] = { "pcmanfm", NULL }; /* File manager */
 static const char *code[] = { "code", NULL }; /* Code Editor */
 static const char *pavucontrol[] = {"pavucontrol", NULL }; /* Pulse Audio control*/
@@ -148,6 +149,8 @@ static Key keys[] = {
 	{ SUPERKEY,                      XK_s,            spawn,          {.v = spotify } },
 	/*Deadbeef music player */
 	{ SUPERKEY,                      XK_m,            spawn,          {.v = deadbeef } },
+	/*MOC - Music On Console */
+	{ SUPERKEY|ControlMask,          XK_m,            spawn,          {.v = mocp } },
 	/* File manager */
 	{ SUPERKEY,                      XK_d,            spawn,          {.v = pcmanfm } },
 	/* Code Editor */
