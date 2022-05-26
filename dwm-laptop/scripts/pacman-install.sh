@@ -81,6 +81,7 @@ PKGS=(
 	'nodejs-material-design-icons'
 	'gnome-keyring'
 	'ranger'
+	'mate-power-manager'
 )
 
 for PKG in "${PKGS[@]}"; do
