@@ -17,7 +17,7 @@ sleep 3s
 cd ~/dwm-laptop/lightdm/
 sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
 cd ~/dwm-laptop/wallpapers/
-sudo cp arch.png /usr/share/pixmaps/
+sudo cp mountain1.jpg /usr/share/pixmaps/
 cd /usr/share/
 sudo mkdir xsessions
 cd ~/dwm-laptop/lightdm/
