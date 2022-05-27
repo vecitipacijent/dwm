@@ -45,6 +45,7 @@ PKGS=(
 	'nordic-theme-git'
 	'moc-pulse'
 	'mocicon'
+	'betterlockscreen'
 )
 
 for PKG in "${PKGS[@]}"; do
