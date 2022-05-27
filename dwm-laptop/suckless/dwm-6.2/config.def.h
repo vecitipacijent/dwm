@@ -116,6 +116,7 @@ static const char *code[] = { "code", NULL }; /* Code Editor */
 static const char *pavucontrol[] = {"pavucontrol", NULL }; /* Pulse Audio control*/
 static const char *volup[] = { "pamixer", "-i", "5", NULL }; /* Pulse Audio Volume Up string */
 static const char *voldown[] = { "pamixer", "-d", "5", NULL }; /* Pulse Audio Volume Down string */
+static const char *screenlock[] = { "betterlockscreen", "-l", NULL }; /* screen locker */
 
 #include "shiftview.c"
 
@@ -151,6 +152,8 @@ static Key keys[] = {
 	{ SUPERKEY,                      XK_m,            spawn,          {.v = deadbeef } },
 	/*MOC - Music On Console */
 	{ SUPERKEY|ControlMask,          XK_m,            spawn,          {.v = mocp } },
+	/* Betterlockscreen */
+	{ SUPERKEY,                      XK_l,            spawn,          {.v = screenlock } },
 	/* File manager */
 	{ SUPERKEY,                      XK_d,            spawn,          {.v = pcmanfm } },
 	/* Code Editor */
