@@ -46,6 +46,8 @@ PKGS=(
 	'moc-pulse'
 	'mocicon'
 	'betterlockscreen'
+	'papirus-folders-nordic'
+	'nordic-wallpapers'
 )
 
 for PKG in "${PKGS[@]}"; do
