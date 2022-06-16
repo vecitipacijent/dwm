@@ -6,4 +6,6 @@ pip3 install jupyter
 pip3 install pyautogui
 pip3 install trafilatura
 pip3 install pandas
-
+pip3 install SpeechRecognition
+pip3 install pyttsx3
+pip3 install PyAudio
