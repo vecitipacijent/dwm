@@ -12,3 +12,4 @@ pip3 install pyttsx3
 pip3 install pipwin
 pip3 install PyAudio
 pip3 install pywhatkit
+pip3 install wikipedia
