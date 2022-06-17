@@ -5,8 +5,8 @@
 #xrandr -s 1920x1080
 feh --bg-scale ~/.config/wallpapers/mountain1.jpg
 #picom --vsync -f &
-picom --config ~/.config/picom/picom.conf -b &
-#picom --experimental-backends --config ~/.config/picom/picom.conf
+#picom --config ~/.config/picom/picom.conf -b &
+picom --experimental-backends &
 #mate-power-manager &
 #nm-applet 
 exec slstatus &
